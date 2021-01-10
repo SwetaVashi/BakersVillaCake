@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Baker's Villa</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="bakerslogo" sizes="180x180" href="img/logo.jpg">
+    <link rel="icon" type="image/jpg" sizes="16x16" href="img/logo.jpg">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!--banner-->
+    <section id="banner">
+        <div class="bg-color">
+            <header id="header">
+                <div class="container">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#about">About</a>
+                        <a href="#event">Event</a>
+                        <a href="#menu-list">Menu</a>
+                        <a href="#contact">Book a Cake</a>
+                    </div>
+                    <!-- Use any element to open the sidenav -->
+                    <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+                </div>
+            </header>
+            <div class="container">
+
+                <div class="row">
+                    <div class="inner text-center">
+                        <img src="img/logo.jpg" alt="" class="img-responsive" height="150" width="150" style="display: block;margin-left: auto;
+                      margin-right: auto;clip-path: circle(100px at center);">
+
+                        <h2>Cake is happiness in a tangible and edible form</h2>
+                        <p>Specialized in Eggless Cakes!!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / banner -->
+    <!--about-->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center marb-35">
+                    <h1 class="header-h">Baker's Villa</h1>
+                    <p class="header-p"> At Baker's Villa we not only bake but we also teach how to bake </p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="about-info">
+                            <h2 class="heading">Who are we... </h2>
+                            <p>The "Baker's Villa" is a Indian Brand that started as a small family business. The owners are Ms. Bhavika Gupta and Ms. Vidhi Gupta, supported by a staff. Although not small any more, the business tries to keep the family atmosphere
+                                where we care not only about our company, our products and our staff, but also we consider each "customer" a member in this family of "cake shoppers". Our mission is to make people happy. Making delicious cakes, having
+                                relaxing chairs in a smoking free environment and keeping our prices reasonable are all different ways to achieve this goal.
+                            </p>
+                            <p>
+                                As the Baker's Villa started as a home-bakery, we are keeping the ingredients the same as those used in your kitchen. This means you will not get commercial products thrown on your table. We are avoiding artificial preservatives and stabilizers, we do
+                                not use shortening or margarine in our kitchen and our ingredients do not contain trans-fat. When milk is required, we use only low-fat milk. When colors are needed, we only use products that are FDA approved and we do
+                                not import any products from markets that are not well monitored for safety. When you order your product, it is baked and prepared for you; hence you will get a fresh product that has the flavor you desire.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img src="img/res01.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+    <!--/about-->
+    <!-- event -->
+    <section id="event">
+        <div class="bg-color" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center" style="padding:60px;">
+                        <h1 class="header-h">Up Coming events</h1>
+                        <p class="header-p">Baking Course for Beginers..</p>
+                    </div>
+                    <div class="col-md-12" style="padding-bottom:60px;">
+                        <div class="item active left">
+                            <div class="col-md-6 col-sm-6 left-images">
+                                <img src="img/res02.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-6 col-sm-6 details-text">
+                                <div class="content-holder">
+                                    <h2>Joyful party</h2>
+                                    <p> For the beginners, the introduction to the cake baking course will be a suitable choice at all. With this course, you can also learn the method of selecting, measuring and also mixing the ingredients to bake the cake.
+                                    </p>
+                                    <address>
+                              <strong>Place: </strong>
+                              1112 Gj Apts, Mumbai
+                              <br>
+                              <strong>Time: </strong>
+                              07:30pm
+                            </address>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ event -->
+    <!-- menu -->
+    <section id="menu-list" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center marb-35">
+                    <h1 class="header-h">Menu List</h1>
+                    <p class="header-p">Whoever said money can't buy happiness has obviously not been to a bakery!!! </p>
+                </div>
+
+                <div class="col-md-12  text-center" id="menu-flters">
+                    <ul>
+                        <li><a class="filter active" data-filter=".menu-restaurant">Show All</a></li>
+                        <li><a class="filter" data-filter=".breakfast">Cakes</a></li>
+                        <li><a class="filter" data-filter=".lunch">Cupcakes</a></li>
+                        <li><a class="filter" data-filter=".dinner">Ice-Cream Cakes</a></li>
+                    </ul>
+                </div>
+
+                <div id="menu-wrapper">
+
+                    <div class="breakfast menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Black Forest</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹250</span>
+                        </span>
+                        <span class="menu-subtitle">Choclate, white cream, cherry</span>
+                    </div>
+
+                    <div class="breakfast menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Fresh Fruit</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹350</span>
+                        </span>
+                        <span class="menu-subtitle">White cream, mixed fruits</span>
+                    </div>
+
+                    <div class="breakfast menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Almond Dutch</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹250</span>
+                        </span>
+                        <span class="menu-subtitle">Almond, Choclate</span>
+                    </div>
+
+                    <div class="breakfast menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Vanilla Pineapple</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹300</span>
+                        </span>
+                        <span class="menu-subtitle">White cream, Pineapple</span>
+                    </div>
+
+                    <div class="lunch menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Butter Scotch</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹350</span>
+                        </span>
+                        <span class="menu-subtitle">White Cream, Butter Scotch</span>
+                    </div>
+
+                    <div class="lunch menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mango Vanilla</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹450</span>
+                        </span>
+                        <span class="menu-subtitle">Mango, White Cream</span>
+                    </div>
+
+                    <div class="lunch menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Red Velvet</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹400</span>
+                        </span>
+                        <span class="menu-subtitle">White cream, Strawberry</span>
+                    </div>
+
+                    <div class="lunch menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Bluberry Chesse </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹350</span>
+                        </span>
+                        <span class="menu-subtitle">White Cream, Cheese, Blue-berry</span>
+                    </div>
+
+                    <div class="lunch menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Choco Vanilla</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹300</span>
+                        </span>
+                        <span class="menu-subtitle">Chocalate, Vanilla, White Cream</span>
+                    </div>
+
+                    <div class="dinner menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plain Vanilla </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹300</span>
+                        </span>
+                        <span class="menu-subtitle">White cream, Vanilla</span>
+                    </div>
+
+                    <div class="dinner menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Tender Coconut</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹350</span>
+                        </span>
+                        <span class="menu-subtitle">White cream, coconut</span>
+                    </div>
+
+                    <div class="dinner menu-restaurant">
+                        <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mixed Fruit</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">₹400</span>
+                        </span>
+                        <span class="menu-subtitle">White cream, mixed fruits</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--/ menu -->
+    <!-- contact -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="header-h">Book Your Cake</h1>
+                    <p class="header-p">We offer decorated cakes for many occasions! </p>
+                </div>
+            </div>
+            <div class="row msg-row">
+                <div class="col-md-4 col-sm-4 mr-15">
+                    <div class="media-2">
+                        <div class="media-left">
+                            <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span></div>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="dark-blue regular">Phone Numbers</h4>
+                            <p class="light-blue regular alt-p">+113423435456 - <span class="contacts-sp">Phone Booking</span></p>
+                        </div>
+                    </div>
+                    <div class="media-2">
+                        <div class="media-left">
+                            <div class="contact-email bg-14 text-center"><span class="hour-icon fa fa-clock-o"></span></div>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="dark-blue regular">Opening Hours</h4>
+                            <p class="light-blue regular alt-p"> Monday to Friday 09.00 - 24:00</p>
+                            <p class="light-blue regular alt-p">
+                                Friday and Sunday 08:00 - 03.00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8">
+                    <form action="" method="post" role="form" class="contactForm">
+                        <div id="sendmessage">Your booking request has been sent. Thank you!</div>
+                        <div id="errormessage"></div>
+                        <div class="col-md-6 col-sm-6 contact-form pad-form">
+                            <div class="form-group label-floating is-empty">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-6 contact-form">
+                            <div class="form-group">
+                                <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Date" data-rule="required" data-msg="This field is required" />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 contact-form pad-form">
+                            <div class="form-group">
+                                <input type="email" class="form-control label-floating is-empty" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 contact-form">
+                            <div class="form-group">
+                                <input type="time" class="form-control label-floating is-empty" name="time" id="time" placeholder="Time" data-rule="required" data-msg="This field is required" />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 contact-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Phone" data-rule="required" data-msg="This field is required" />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 contact-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control label-floating is-empty" name="people" id="people" placeholder="People" data-rule="required" data-msg="This field is required" />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 contact-form">
+                            <div class="form-group label-floating is-empty">
+                                <textarea class="form-control" name="message" rows="5" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validation"></div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-12 btnpad">
+                            <div class="contacts-btn-pad">
+                                <button class="contacts-btn">Book Cake</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / contact -->
+    <!-- footer -->
+    <footer class="footer text-center">
+        <div class="footer-top">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6 text-center">
+                    <div class="widget">
+                        <h4 class="widget-title">Baker's Villa</h4>
+                        <address>1123 GJ Apt<br>Mumbai 110013</address>
+                        <div class="social-list">
+                            <a href="https://www.facebook.com/bakers.villa.9"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/bakers.villa.9"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </div>
+                        <p class="copyright clear-float">
+                            © Baker's Villa. All Rights Reserved
+                            <div class="credits">
+
+
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
